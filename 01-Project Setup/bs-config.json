@@ -1,0 +1,11 @@
+{
+  "files": ["src/**/*.html", "src/**/*.css", "dist/**/*.js", "src/**/*.ts"],
+  "server": {
+    "baseDir": "dist"
+  },
+  "middleware": {
+    // Add middleware for TypeScript compilation (if needed)
+    "./src/**/*.ts": []
+  }
+}
+    
