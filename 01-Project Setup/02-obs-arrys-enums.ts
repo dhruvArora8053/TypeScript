@@ -12,7 +12,7 @@ const person: {
   age: number;
   hobbies: string[];
   role: [number, string];
-  //   tuple --> I want to have an array with exactly 2 elements, first should be a number, and secons should be a string, note: push is allowed
+  //   tuple --> I want to have an array with exactly 2 elements, first should be a number, and second should be a string, note: push is allowed
 } = {
   name: "Maximilian",
   age: 30,
